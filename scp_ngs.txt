@@ -1,0 +1,65 @@
+=====================
+Acesso ao NGS IMD
+=====================
+Arquivos utilizados no curso "Análise de Dados de Sequenciadores de Segunda Geração" oferecido pelo Biome-IMD-UFRN.
+Data: 19/07/2017 - 21/07/2017
+
+================================== Comando SCP ===========================================
+
+scp -r -P4422 bif@177.20.147.141:/home/bif/wash/qual/ /home/wash/Desktop/
+
+
+========================= Pratica 2 - Quality Control ====================================
+No curso, as cópias abaixo listadas deveriam ser utilizadas na forma de links simbólicos (p.4).  
+Estes são os arquivos .fastq utilizados no tutorial 02-Quality Control.
+
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/ERR844339.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/10_S5_R1_001.fastq . 
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/polipo.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/fastq_screen.conf .
+
+## Arquivos para análise SAMStat:
+
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/ERR844339.bam .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/polipo.bam .
+
+========================= Pratica 3 - Variantes =====================================
+
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/NC_012967.1.fa .  
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/SRR5714077_1_s.1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/SRR5714077_2_s.1.fastq .
+
+======================== Copiando Pastas de /home/bif/public_html/wash/ =============
+scp -r -P4422 bif@177.20.147.141:/home/bif/wash/qual/ .
+scp -r -P4422 bif@177.20.147.141:/home/bif/wash/bwa/ .
+
+======================== Pratica 4 - RNA-seq 1 ======================================
+scp -r -P4422 bif@177.20.147.141:/root/Trimmomatic-0.36/adapters/TruSeq3-PE-2.fa .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/adrenal_1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/adrenal_2.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/brain_1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/brain_2.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/databases/hg19/ .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/gene19_annotation.gtf .
+
+scp -r -P4422 bif@10.7.5.38:/home/bif/wash/rna1 .
+
+======================== Pratica 5 - RNA-seq 2 ======================================
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/sample_data/SRR326279_R1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/sample_data/SRR326280_R1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/sample_data/SRR326281_R1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/sample_data/SRR326282_R1.fastq .
+scp -r -P4422 bif@177.20.147.141:/home/treinamento/NGS/RNAseq/small_ref/ .
+
+scp -r -P4422 bif@177.20.147.141:/home/bif/wash/rna2 .
+scp -r -P4422 bif@10.7.5.38:/home/bif/wash/rna2 .
+scp -r -P4422 bif@10.7.5.38:/home/bif/wash/rna1 .
+
+
+
+
+
+
+
+
+
